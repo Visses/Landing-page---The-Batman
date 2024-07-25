@@ -1,0 +1,201 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+height: 90px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+
+nav {
+width: 60%;
+
+}
+
+ul {
+display: flex;
+width: 100%;
+justify-content: space-between;
+
+}
+
+li {
+list-style: none;
+color: aliceblue;
+cursor: pointer;
+font-size: 19px;
+transition: .5s;
+font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+    
+li:hover {
+color: #d21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+
+.cards {
+display: grid;
+grid-template-columns: repeat(4, 1fr );
+width: 100%;
+height: 600px;
+}
+
+.card1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeG5FbXhYemqVv3XYEl1AqJ3tqzfjIbcPsXg&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card2 {
+    background-image: url(https://cdn.ome.lt/nQvL7VGZze-eWKVIIh4QSBhSKuM=/1200x630/smart/extras/conteudos/the-batman-tem-cena-pos-creditos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card3 {
+    background-image: url(https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card4 {
+    background-image: url(https://legadodadc.com.br/wp-content/uploads/2022/03/The-Batman-ending-1-legadodadc.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card5 {
+    background-image: url(https://cdn.ome.lt/9UuahohEJnOIW1b018tEsb0nnJM=/570x0/smart/uploads/conteudo/fotos/batminha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card6 {
+    background-image: url(https://arthurtuoto.com/wp-content/uploads/2022/03/BATMAN-08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card7 {
+    background-image: url(https://rollingstone.uol.com.br/media/uploads/bruce_wayne_robert_pattinson_e_a_mulher-gato_zoe_kravitz_foto_reproducao.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card8 {
+    background-image: url(https://rollingstone.com.br/media/uploads/ator_robert_pattinson_como_batman_em_filme_de_matt_reeves_foto_reproducao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card9 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCocjuAid7nhESqD_aG4hNfUJTcv1y3rcJ9Q&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card10 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1VFbtMdZylDpa0Av5d-F1JHuKnMUcqBXkw&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card11 {
+    background-image: url(https://jpimg.com.br/uploads/2021/10/fb2sdnnwuaiehhv.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.card12 {
+    background-image: url(https://i0.wp.com/minhavisaodocinema.com.br/wp-content/uploads/2022/03/batman-mvdc-7.jpg?resize=780%2C435&ssl=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card13 {
+    background-image: url(https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/a2d2858c-bf39-11ec-aa6e-9587410378a2/the-batman-abertura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card14 {
+    background-image: url(https://bloggallerya.com/wp-content/uploads/2022/02/batman-gordon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card15 {
+    background-image: url(https://legadodadc.com.br/wp-content/uploads/2022/03/An-image-of-Alfred-and-Bruce-talking-in-The-Batman-legadodadc.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card16 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTar6dpWfHKXoTApyWPaqcBim0HwIGyYxdMpA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    span {
+        color: #fff;
+        font-family: 'Kdam Thmor Pro', sans-serif;
+    }
+    
+    .footer-navgation {
+        display: none;
+    }
+    
+    .footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    
+    @media(max-width: 768px) {
+    .footer-navgation{
+        display: block;
+    }
+
+    nav {
+    display: none;
+    
+    }
+    
+    #banner {
+    
+        background-position: 40%;
+    }
+}
